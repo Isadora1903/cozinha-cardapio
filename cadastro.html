@@ -8,13 +8,20 @@
 </head>
 <body>
   <h2>faça o login</h2>
-   <form action="/action_page.php">
-   <input type="text" id="nome" name="nome" placeholder="nome"><br><br>
-   <input type="email" id="email" name="email" placeholder="email"><br><br>
+   <fieldset>
+    <legend>nome:</legend>
+   <input type="text" id="nome" name="nome" ><br><br>
+    </fieldset>
 
-  <input type="password" id="senha" name="senha" minlength="8" placeholder="senha"><br><br>
-
-     <input type="password" id="senha" name="senha" minlength="8" placeholder="confirmação de senha"><br><br>
+    <fieldset>
+      <legend>email:</legend>
+   <input type="email" id="email" name="email" ><br><br>
+     </fieldset>
+     
+     <fieldset>
+      <legend>senha:</legend>
+  <input type="password" id="senha" name="senha" minlength="8" ><br><br>
+      </fieldset>
   <button type="submit">Entrar</button>
 
 </form>
