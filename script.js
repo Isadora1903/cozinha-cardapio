@@ -1,14 +1,4 @@
-async function loginCozinheira(email,senha){
- 
-}
 
-async function cadastrarCozinheira(email,nome,senha){
-
-}
-
-async function recuperarSenha(email){
-
-}
 
 async function cadastrarCardapio(cardapio){
 
